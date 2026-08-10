@@ -1,0 +1,17 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 15C44 14.4477 44.4477 14 45 14V14C45.5523 14 46 14.4477 46 15V68H44V15Z" fill="#EBE3DE"/>
+<path d="M35 70C35 68.8954 35.8954 68 37 68H53C54.1046 68 55 68.8954 55 70V72H35V70Z" fill="#EBE3DE"/>
+<path d="M27 73C27 71.8954 27.8954 71 29 71H61C62.1046 71 63 71.8954 63 73V75H27V73Z" fill="#CFBFB4"/>
+<path d="M45 13C48.3137 13 51 15.6863 51 19V19C51 20.3957 51.9417 22 53.3374 22H64.76C65.6074 22 66.3226 21.409 66.9365 20.8248C67.4736 20.3138 68.1997 20 69 20C70.6569 20 72 21.3431 72 23C72 24.6569 70.6569 26 69 26H21C19.3431 26 18 24.6569 18 23C18 21.3431 19.3431 20 21 20C21.8003 20 22.5264 20.3138 23.0635 20.8248C23.6774 21.409 24.3926 22 25.24 22H36.6626C38.0583 22 39 20.3957 39 19V19C39 15.6863 41.6863 13 45 13Z" fill="#75370E"/>
+<circle cx="45" cy="19" r="3" fill="#EBE3DE"/>
+<path d="M25.9922 27L17 51" stroke="#EBE3DE" stroke-width="2" stroke-linecap="round"/>
+<path d="M63.9922 27L55 51" stroke="#EBE3DE" stroke-width="2" stroke-linecap="round"/>
+<path d="M26 27L34.9922 51" stroke="#EBE3DE" stroke-width="2" stroke-linecap="round"/>
+<path d="M64 27L72.9922 51" stroke="#EBE3DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="26" y1="27" x2="26" y2="51" stroke="#EBE3DE" stroke-width="2"/>
+<line x1="64" y1="27" x2="64" y2="51" stroke="#EBE3DE" stroke-width="2"/>
+<path d="M26 61C31.5228 61 36 57.4183 36 53H16C16 57.4183 20.4772 61 26 61Z" fill="#F37321"/>
+<path d="M64 61C69.5228 61 74 57.4183 74 53H54C54 57.4183 58.4772 61 64 61Z" fill="#F37321"/>
+<rect x="15" y="51" width="22" height="2" rx="1" fill="#F37321"/>
+<rect x="53" y="51" width="22" height="2" rx="1" fill="#F37321"/>
+</svg>

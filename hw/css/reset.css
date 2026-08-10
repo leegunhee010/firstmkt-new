@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------
+  파일정의 : Settings
+  작성날짜 : 2025-08-14 유지수
+  분류순서 : 기본정책 > 유틸리티 > 사용자정의(컬러, 폰트, 보더, 간격 등)
+  속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+@import 'font.css';
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  outline: none
+}.hw-scope{
+  overflow-y: scroll;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.3;
+  font-size: 10px;
+  word-break: keep-all;
+}.hw-scope,.hw-scope div,.hw-scope dl,.hw-scope dt,.hw-scope dd,.hw-scope ul,.hw-scope ol,.hw-scope li,.hw-scope h1,.hw-scope h2,.hw-scope h3,.hw-scope h4,.hw-scope h5,.hw-scope h6,.hw-scope pre,.hw-scope code,.hw-scope form,.hw-scope fieldset,.hw-scope legend,.hw-scope textarea,.hw-scope p,.hw-scope blockquote,.hw-scope th,.hw-scope td,.hw-scope input,.hw-scope select,.hw-scope textarea,.hw-scope button{
+  margin: 0;
+  padding: 0;
+}.hw-scope{
+  font-family: "HanwhaGothic", "Malgun Gothic", Dotum, Arial, sans-serif;
+  color: var(--c_black);
+  font-size: var(--fz_base);
+  font-weight: 400;
+  letter-spacing: -0.02rem;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}.hw-scope h1,.hw-scope h2,.hw-scope h3,.hw-scope h4,.hw-scope h5,.hw-scope h6{
+  font-weight: normal;
+  font-size: 100%
+}.hw-scope strong{
+  font-weight: 700;
+}.hw-scope input,.hw-scope select,.hw-scope textarea,.hw-scope button,.hw-scope label{
+  font-size: 100%;
+  vertical-align: middle
+}.hw-scope select{
+  width: 100%;
+  height: 5.8rem;
+  padding: 0 5.4rem 0 2.4rem;
+  border: .1rem solid var(--c_white);
+  border-radius: .8rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .3s ease;
+}.hw-scope select::-ms-expand{
+  display: none;
+}.hw-scope input{
+  border: .1rem solid var(--c_white);
+  font-size: var(--fz_m);
+}.hw-scope input:disabled{
+  opacity: 1;
+  -webkit-text-fill-color: inherit
+}.hw-scope input[type="text"],.hw-scope input[type="search"],.hw-scope input[type="password"],.hw-scope input[type="tel"],.hw-scope input[type="email"],.hw-scope input[type="number"],.hw-scope input[type="button"]{
+  height: 5.8rem;
+  font-size: var(--fz_m);
+  padding: 0 2.4rem;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: .1rem solid var(--c_white);
+  background: var(--c_white);
+  transition: border-color .3s ease;
+  cursor: pointer;
+}.hw-scope input[type="text"]:focus,.hw-scope input[type="password"]:focus,.hw-scope input[type="tel"]:focus,.hw-scope input[type="email"]:focus,.hw-scope input[type="number"]:focus{
+  border-color: var(--c_primary);
+}.hw-scope fieldset,.hw-scope img,.hw-scope iframe{
+  border: 0 none;
+}.hw-scope img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}.hw-scope textarea{
+  width: 100%;
+  padding: 1.5rem 2.4rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  resize: none;
+  border: .1rem solid var(--c_white);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}.hw-scope em,.hw-scope address{
+  font-style: normal
+}.hw-scope a{
+  text-decoration: none;
+  background-color: transparent;
+  vertical-align: middle;
+  -webkit-text-decoration-skip: objects;
+  color: var(--c_black);
+  word-break: break-word;
+}.hw-scope a:hover,.hw-scope a:active,.hw-scope a:focus{
+  text-decoration: none
+}.hw-scope menu,.hw-scope li{
+  list-style: none
+}.hw-scope button{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  background: none;
+  font-family: "HanwhaGothic", "Malgun Gothic", Dotum, Arial, sans-serif;
+}.hw-scope button,.hw-scope input{
+  overflow: visible;
+}.hw-scope button,.hw-scope select{
+  text-transform: none;
+}.hw-scope button,.hw-scope [type="button"],.hw-scope [type="reset"],.hw-scope [type="submit"]{
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-family: "HanwhaGothic", "Malgun Gothic", Dotum, Arial, sans-serif;
+}.hw-scope button::-moz-focus-inner,.hw-scope [type="button"]::-moz-focus-inner,.hw-scope [type="reset"]::-moz-focus-inner,.hw-scope [type="submit"]::-moz-focus-inner{
+  border-style: none;
+  padding: 0;
+}.hw-scope button:-moz-focusring,.hw-scope [type="button"]:-moz-focusring,.hw-scope [type="reset"]:-moz-focusring,.hw-scope [type="submit"]:-moz-focusring{
+  outline: 1px dotted ButtonText;
+}.hw-scope caption{
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}.hw-scope hr{
+  display: none;
+}.hw-scope i,.hw-scope em,.hw-scope address{
+  font-style: normal;
+}.hw-scope label{
+  cursor: pointer;
+}.hw-scope table{
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: 0;
+  color: #111;
+  table-layout: fixed;
+}.hw-scope table td{
+  word-wrap: break-word;
+}.hw-scope input[type="number"]::-webkit-outer-spin-button,.hw-scope input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}.hw-scope input::-ms-clear,.hw-scope input::-ms-reveal{
+  display: none;
+}.hw-scope input::-webkit-search-decoration,.hw-scope input::-webkit-search-cancel-button,.hw-scope input::-webkit-search-results-button,.hw-scope input::-webkit-search-results-decoration{
+  display: none;
+}.hw-scope ::-webkit-input-placeholder{
+  font-size: var(--fz_m);
+  color: var(--c_gray3);
+  font-family: "HanwhaGothic", "Malgun Gothic", Dotum, Arial, sans-serif;
+  font-weight: 300;
+  vertical-align: middle;
+}.hw-scope ul:after,.hw-scope ol:after{
+  display: block;
+  content: '';
+  clear: both;
+}.hw-scope figure{
+  margin: 0;
+}

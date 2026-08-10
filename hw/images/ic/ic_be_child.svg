@@ -1,0 +1,23 @@
+<svg width="91" height="90" viewBox="0 0 91 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="90" height="90" transform="translate(0.75)" fill="white"/>
+<circle cx="67.75" cy="59.0004" r="6.58846" transform="rotate(-30 67.75 59.0004)" fill="#CFBFB4"/>
+<circle cx="76.75" cy="61.4115" r="6.58846" transform="rotate(-30 76.75 61.4115)" fill="#CFBFB4"/>
+<rect x="62.0449" y="62.2939" width="13.1769" height="13.1769" transform="rotate(-30 62.0449 62.2939)" fill="#CFBFB4"/>
+<circle cx="15.0449" cy="55.2135" r="6.58846" transform="rotate(-60 15.0449 55.2135)" fill="#EBE3DE"/>
+<circle cx="24.0449" cy="52.8013" r="6.58846" transform="rotate(-60 24.0449 52.8013)" fill="#EBE3DE"/>
+<rect x="11.75" y="60.9189" width="13.1769" height="13.1769" transform="rotate(-60 11.75 60.9189)" fill="#EBE3DE"/>
+<circle cx="36.0804" cy="39.335" r="16.4999" transform="rotate(-45 36.0804 39.335)" fill="#F37321"/>
+<circle cx="59.4144" cy="39.335" r="16.4999" transform="rotate(-45 59.4144 39.335)" fill="#F37321"/>
+<rect x="24.4141" y="51.002" width="32.9997" height="32.9997" transform="rotate(-45 24.4141 51.002)" fill="#F37321"/>
+<path d="M33.75 33C35.9591 33 37.75 34.7909 37.75 37V41H33.75C31.5409 41 29.75 39.2091 29.75 37C29.75 34.7909 31.5409 33 33.75 33Z" stroke="#75370E" stroke-width="2"/>
+<path d="M43.75 33C41.5409 33 39.75 34.7909 39.75 37V41H43.75C45.9591 41 47.75 39.2091 47.75 37C47.75 34.7909 45.9591 33 43.75 33Z" stroke="#75370E" stroke-width="2"/>
+<rect x="38.4062" y="40" width="2" height="10" transform="rotate(45 38.4062 40)" fill="#75370E"/>
+<rect width="2" height="10" transform="matrix(-0.707107 0.707107 0.707107 0.707107 39.1641 40)" fill="#75370E"/>
+<mask id="mask0_975_26408" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="19" y="22" width="57" height="53">
+<path d="M47.749 27.667C54.1926 21.2238 64.6395 21.2236 71.083 27.667C77.5266 34.1106 77.5266 44.5584 71.083 51.002L47.749 74.3359L24.4141 51.002C17.9705 44.5584 17.9705 34.1106 24.4141 27.667C30.8577 21.2234 41.3054 21.2234 47.749 27.667Z" fill="#F37625"/>
+</mask>
+<g mask="url(#mask0_975_26408)">
+<rect x="15.75" y="40" width="64" height="2" fill="#75370E"/>
+<rect x="37.75" y="17.4189" width="2" height="56" fill="#75370E"/>
+</g>
+</svg>

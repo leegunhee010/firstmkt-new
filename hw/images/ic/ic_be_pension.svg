@@ -1,0 +1,14 @@
+<svg width="91" height="90" viewBox="0 0 91 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="90" height="90" transform="translate(0.75)" fill="white"/>
+<rect x="22.75" y="69.7275" width="8" height="12" rx="1" transform="rotate(-75 22.75 69.7275)" fill="#CFBFB4"/>
+<rect width="8" height="12" rx="1" transform="matrix(-0.258819 -0.965926 -0.965926 0.258819 72.4121 69.7275)" fill="#CFBFB4"/>
+<path d="M77.75 25C77.75 27.5 76.95 31 71.75 31" stroke="#CFBFB4" stroke-width="2"/>
+<rect x="15.75" y="24" width="64" height="44" rx="22" fill="#EBE3DE"/>
+<rect x="12.75" y="37" width="6" height="12" rx="1" fill="#EBE3DE"/>
+<ellipse cx="23.25" cy="36" rx="1.5" ry="2" fill="#75370E"/>
+<path d="M30.3122 21.5C26.9641 19.567 22.683 20.7141 20.75 24.0622L32.8744 31.0622C34.8074 27.7141 33.6602 23.433 30.3122 21.5Z" fill="#CFBFB4"/>
+<circle cx="57.75" cy="46" r="14" fill="#75370E"/>
+<circle cx="49.75" cy="46" r="14" fill="#F37321"/>
+<path d="M57.295 41L54.55 51.53H51.445L49.765 44.6L48.025 51.53H44.92L42.25 41H44.995L46.51 48.665L48.385 41H51.205L53.005 48.665L54.535 41H57.295Z" fill="white"/>
+<rect x="41.25" y="43.5303" width="17" height="2" fill="white"/>
+</svg>

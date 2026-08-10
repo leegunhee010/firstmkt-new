@@ -1,0 +1,14 @@
+<svg width="91" height="90" viewBox="0 0 91 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="90" height="90" transform="translate(0.75)" fill="white"/>
+<ellipse cx="70.75" cy="41" rx="12" ry="8" fill="#CFBFB4"/>
+<ellipse cx="70.75" cy="53" rx="12" ry="8" fill="#CFBFB4"/>
+<path d="M68.75 44C68.75 42.8954 69.6454 42 70.75 42C71.8546 42 72.75 42.8954 72.75 44V73H68.75V44Z" fill="#EBE3DE"/>
+<rect x="12.75" y="17" width="48" height="50" rx="4" fill="#F37321"/>
+<rect x="12.75" y="23" width="48" height="28" fill="#EBE3DE"/>
+<circle cx="20.75" cy="59" r="4" fill="white"/>
+<circle cx="52.75" cy="59" r="4" fill="white"/>
+<path d="M60.75 43H62.75C63.8546 43 64.75 43.8954 64.75 45V49C64.75 50.1046 63.8546 51 62.75 51H60.75V43Z" fill="#75370E"/>
+<path d="M12.75 43H10.75C9.64543 43 8.75 43.8954 8.75 45V49C8.75 50.1046 9.64543 51 10.75 51H12.75V43Z" fill="#75370E"/>
+<path d="M16.75 67H24.75V71C24.75 72.1046 23.8546 73 22.75 73H18.75C17.6454 73 16.75 72.1046 16.75 71V67Z" fill="#75370E"/>
+<path d="M48.75 67H56.75V71C56.75 72.1046 55.8546 73 54.75 73H50.75C49.6454 73 48.75 72.1046 48.75 71V67Z" fill="#75370E"/>
+</svg>
