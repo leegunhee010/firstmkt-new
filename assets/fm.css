@@ -291,11 +291,15 @@ section.jWdueg .fm-hero-glow{animation:fmGlowPulse 6s ease-in-out infinite alter
 .fm-ownc-ar.prev{right:calc(50% - var(--ownc-w)/2 + 76px)}
 .fm-ownc-ar.next{right:calc(50% - var(--ownc-w)/2 + 22px)}
 @media(max-width:900px){.fm-ownc{--ownc-w:86vw}.fm-ownc-body{max-width:100%;padding:0 28px}.fm-ownc-card{height:400px}}
-/* 홈 프로젝트 섹션: masonry가 PT .container 안에 있어 자체 패딩 제거(이중 패딩 → 카드만 40px 밀림), 우측 카피는 헤딩 하단 정렬 */
-.sc-iwXfZk .fm-masonry{padding:0;max-width:none}
-.sc-iwXfZk .container .description{align-self:end}
+/* 홈 프로젝트 섹션: masonry가 PT .container 안에 있어 자체 패딩 제거(이중 패딩 → 카드만 40px 밀림), 우측 카피는 헤딩 하단·우측끝 정렬 */
+.sc-iwXfZk .fm-masonry{padding:0;max-width:none;margin-top:48px!important}
+.sc-iwXfZk .container{margin-bottom:0!important}
+.sc-iwXfZk header,.sc-iwXfZk header .container{padding-bottom:0!important;margin-bottom:0!important}
+.sc-iwXfZk .portfolios,.sc-iwXfZk .portfolios .container{padding-top:0!important;margin-top:0!important}
+.sc-iwXfZk .container .title{margin-bottom:0!important}
+.sc-iwXfZk .container .description{align-self:end;text-align:right;margin-bottom:0!important}
 .sc-iwXfZk .container .description p{margin-bottom:0}
-.sc-iwXfZk .container .description p+p{margin-top:12px}
+.sc-iwXfZk .container .description p+p{margin-top:10px}
 /* 클라이언트 로고 밴드=흰 */
 .fm-sec-light{background:#f7f8f7}
 .fm-sec-light small.section{color:#48B064}
