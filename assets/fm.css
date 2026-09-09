@@ -870,7 +870,7 @@ body.fm-vnorth .fm-vtabs button.on{background:#111;color:#fff}
 .fm-filter button.on{background:var(--fm-accent);color:#04150a;font-weight:800}
 @media(max-width:640px){.fm-filter{gap:6px;padding:12px 10px}.fm-filter button{font-size:15.5px;padding:9px 15px}}
 /* 상담문의 폼 (프리픽스 fm-cf-) */
-.fm-cf{padding-top:0}
+.fm-cf{padding-top:110px}
 .fm-cf-wrap{max-width:1542px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:400px 1fr;gap:80px;align-items:start}
 .fm-cf-side h3{color:#fff;font-size:24px;font-weight:800;line-height:1.45;margin:0 0 16px}
 .fm-cf-side p{color:#9aa19c;font-size:16px;line-height:1.8;margin:0 0 34px}
