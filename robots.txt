@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /project-detail.html
+Disallow: /blog-post.html
+
+Sitemap: https://www.firstmkt.co.kr/sitemap.xml
