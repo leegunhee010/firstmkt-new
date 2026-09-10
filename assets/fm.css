@@ -936,6 +936,22 @@ body.fm-vnorth .fm-vtabs button.on{background:#111;color:#fff}
 .fm-vtargets{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
 .fm-vt{background:var(--fm-panel);border:1px solid var(--fm-line);padding:30px 22px;text-align:center;transition:border-color .25s ease,transform .25s ease}
 .fm-vt:hover{border-color:var(--fm-accent);transform:translateY(-3px)}
+/* 지원 대상 5단계: 박스·알약 없이 헤어라인 5열 + 한도 비례 그린 막대(계단) */
+.fm-vstair{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--fm-line)}
+.fm-vs{display:flex;flex-direction:column;padding:34px 26px 0;border-left:1px solid var(--fm-line);min-height:380px}
+.fm-vs:first-child{border-left:0;padding-left:0}
+.fm-vs small{font-size:12px;font-weight:800;letter-spacing:.18em;color:#8a918c}
+.fm-vs b{display:block;margin-top:16px;font-size:23px;font-weight:800;color:#fff;letter-spacing:-.01em}
+.fm-vs em{display:block;margin-top:8px;font-style:normal;font-size:14px;line-height:1.65;color:#9aa19c;word-break:keep-all}
+.fm-vs strong{display:block;margin-top:auto;padding-top:30px;font-size:42px;font-weight:800;line-height:1;letter-spacing:-.02em;color:#fff;font-variant-numeric:tabular-nums}
+.fm-vs strong span{display:block;font-size:12px;font-weight:800;letter-spacing:.12em;color:var(--fm-accent);margin-bottom:10px}
+.fm-vs strong i{font-style:normal;font-size:15px;font-weight:600;color:#8a918c;margin-left:5px;letter-spacing:0}
+.fm-vs-bar{display:block;position:relative;height:120px;margin-top:22px}
+.fm-vs-bar span{position:absolute;left:0;right:0;bottom:0;height:var(--h,30%);background:linear-gradient(180deg,var(--fm-accent) 0%,rgba(72,176,100,.18) 100%)}
+.fm-vstair+.fm-note{margin-top:30px}
+body.fm-vnorth .fm-sec:not(.fm-dk) .fm-vs b,body.fm-vnorth .fm-sec:not(.fm-dk) .fm-vs strong{color:#111}
+body.fm-vnorth .fm-sec:not(.fm-dk) .fm-vs em{color:#666}
+@media(max-width:900px){.fm-vstair{grid-template-columns:1fr;border-top:0}.fm-vs{min-height:0;padding:22px 0;border-left:0;border-top:1px solid var(--fm-line);display:grid;grid-template-columns:44px 1fr auto;grid-template-rows:auto auto;column-gap:14px;align-items:center}.fm-vs small{grid-row:1/3}.fm-vs em{margin-top:2px}.fm-vs strong{grid-column:3;grid-row:1/3;margin:0;padding:0;font-size:28px;text-align:right}.fm-vs strong span{display:inline;margin:0 6px 0 0;font-size:11px}.fm-vs-bar{display:none}}
 .fm-vt small{display:block;color:#5f6a63;font-weight:800;font-size:13px;letter-spacing:.12em;margin-bottom:16px}
 .fm-vt-max{display:block;color:#8a918c;font-size:12.5px;margin-bottom:2px}
 .fm-vt strong{display:block;color:var(--fm-accent);font-size:30px;font-weight:800;line-height:1.2}
