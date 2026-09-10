@@ -951,7 +951,56 @@ body.fm-vnorth .fm-vtabs button.on{background:#111;color:#fff}
 .fm-vstair+.fm-note{margin-top:30px}
 body.fm-vnorth .fm-sec:not(.fm-dk) .fm-vs b,body.fm-vnorth .fm-sec:not(.fm-dk) .fm-vs strong{color:#111}
 body.fm-vnorth .fm-sec:not(.fm-dk) .fm-vs em{color:#666}
-@media(max-width:900px){.fm-vstair{grid-template-columns:1fr;border-top:0}.fm-vs{min-height:0;padding:22px 0;border-left:0;border-top:1px solid var(--fm-line);display:grid;grid-template-columns:44px 1fr auto;grid-template-rows:auto auto;column-gap:14px;align-items:center}.fm-vs small{grid-row:1/3}.fm-vs em{margin-top:2px}.fm-vs strong{grid-column:3;grid-row:1/3;margin:0;padding:0;font-size:28px;text-align:right}.fm-vs strong span{display:inline;margin:0 6px 0 0;font-size:11px}.fm-vs-bar{display:none}}
+@media(max-width:900px){.fm-vstair{grid-template-columns:1fr!important;border-top:0}.fm-vs{min-height:0;padding:22px 0;border-left:0;border-top:1px solid var(--fm-line);display:grid;grid-template-columns:44px 1fr auto;grid-template-rows:auto auto;column-gap:14px;align-items:center}.fm-vs small{grid-row:1/3}.fm-vs em{margin-top:2px}.fm-vs strong{grid-column:3;grid-row:1/3;margin:0;padding:0;font-size:28px;text-align:right}.fm-vs strong span{display:inline;margin:0 6px 0 0;font-size:11px}.fm-vs-bar{display:none}}
+/* ★voucher v4 (2026-09-10) — 박스·알약 전부 제거, 헤어라인 열·행 문법으로 통일 (body.fm-v2 스코프, 타 페이지 영향 없음) */
+body.fm-v2 .fm-sec{--vl:#d9ddda}
+body.fm-v2 .fm-sec.fm-dk{--vl:var(--fm-line)}
+body.fm-v2 .fm-vstair{border-top-color:var(--vl)}
+body.fm-v2 .fm-vs{border-left-color:var(--vl)}
+/* 탭: 알약 → 텍스트 + 그린 밑줄 */
+body.fm-v2 .fm-vtabs{gap:48px;padding:0 40px;background:#000;border-top:1px solid #1c1f1d;border-bottom:1px solid #1c1f1d}
+body.fm-v2 .fm-vtabs button{position:relative;padding:26px 2px;border-radius:0;font-size:19px;font-weight:700;color:#7e857f;background:transparent}
+body.fm-v2 .fm-vtabs button:hover{color:#fff;background:transparent}
+body.fm-v2 .fm-vtabs button.on{background:transparent;color:#fff;font-weight:800}
+body.fm-v2 .fm-vtabs button.on::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--fm-accent)}
+/* 3칸 안내(vinfo): 헤어라인 열 */
+body.fm-v2 .fm-vinfo{gap:0;border-top:1px solid var(--vl)}
+body.fm-v2 .fm-vinfo>div{background:transparent!important;border:0!important;border-left:1px solid var(--vl)!important;padding:34px 30px 8px!important;min-height:170px}
+body.fm-v2 .fm-vinfo>div:first-child{border-left:0!important;padding-left:0!important}
+body.fm-v2 .fm-vinfo h4{font-size:21px!important;margin:0 0 14px!important}
+body.fm-v2 .fm-vinfo p{font-size:15.5px!important;line-height:1.75!important}
+/* 절차(steps): 상단 헤어라인 + 그린 틱 + 큰 번호 타임라인 */
+body.fm-v2 .fm-steps{gap:0;border-top:1px solid var(--vl)}
+body.fm-v2 .fm-step{position:relative;background:transparent!important;border:0!important;border-left:1px solid var(--vl)!important;padding:34px 26px 44px!important}
+body.fm-v2 .fm-step:first-child{border-left:0!important;padding-left:0!important}
+body.fm-v2 .fm-step::after{content:"";position:absolute;left:0;top:-1px;width:40px;height:2px;background:var(--fm-accent)}
+body.fm-v2 .fm-step::before{font-size:36px;font-weight:800;letter-spacing:-.02em;margin-bottom:22px;font-variant-numeric:tabular-nums;color:var(--fm-accent)}
+body.fm-v2 .fm-step span{display:block;font-size:18px;font-weight:700;line-height:1.5;word-break:keep-all}
+/* 전략·세부사업(vstrat): 2x2 박스 → 번호 붙은 행 목록 */
+body.fm-v2 .fm-vstrat{display:block;border-top:1px solid var(--vl);counter-reset:vs}
+body.fm-v2 .fm-vstrat>div{display:grid;grid-template-columns:72px minmax(220px,340px) 1fr;column-gap:36px;align-items:start;background:transparent!important;border:0!important;border-bottom:1px solid var(--vl)!important;padding:30px 0!important;counter-increment:vs}
+body.fm-v2 .fm-vstrat>div::before{content:"0" counter(vs);font-size:13px;font-weight:800;letter-spacing:.16em;color:#8a918c;padding-top:6px}
+body.fm-v2 .fm-vstrat h4{margin:0!important;font-size:20px!important;line-height:1.45}
+body.fm-v2 .fm-vstrat p{margin:0!important;font-size:15.5px!important;line-height:1.75!important;max-width:640px}
+/* 서비스 목록(list): 박스 → 헤어라인 행 + 그린 점 */
+body.fm-v2 .fm-list{gap:0 48px;border-top:1px solid var(--vl)}
+body.fm-v2 .fm-list li{position:relative;background:transparent!important;border:0!important;border-bottom:1px solid var(--vl)!important;padding:19px 0 19px 22px!important;font-size:16px!important;font-weight:600}
+body.fm-v2 .fm-list li::before{content:"";position:absolute;left:0;top:27px;width:8px;height:8px;background:var(--fm-accent)}
+/* 한눈에 보기(stats): 헤어라인 열 */
+body.fm-v2 .fm-vpanel .fm-stats{gap:0;border-top:1px solid var(--vl)}
+body.fm-v2 .fm-vpanel .fm-stat{border-left:1px solid var(--vl);padding:32px 28px 10px}
+body.fm-v2 .fm-vpanel .fm-stat:first-child{border-left:0;padding-left:0}
+/* 표·주의사항: 박스 배경 제거 */
+body.fm-v2 .fm-vtable{border:0!important;border-top:1px solid var(--vl);margin-top:0}
+body.fm-v2 .fm-vtable th{background:transparent}
+body.fm-v2 .fm-vcauts{position:relative;background:transparent!important;border:0!important;border-top:1px solid var(--vl)!important;border-bottom:1px solid var(--vl)!important;padding:30px 0 30px 30px!important;margin-top:56px}
+body.fm-v2 .fm-vcauts::before{content:"";position:absolute;left:0;top:30px;bottom:30px;width:2px;background:var(--fm-accent)}
+body.fm-v2 .fm-vcauts ul{padding-left:0;list-style:none}
+body.fm-v2 .fm-vcauts li{padding-left:18px;position:relative}
+body.fm-v2 .fm-vcauts li::before{content:"";position:absolute;left:0;top:11px;width:6px;height:6px;background:#8a918c}
+body.fm-v2 .fm-vpanel .fm-note{margin-top:26px}
+@media(max-width:1024px){body.fm-v2 .fm-vinfo{border-top:0}body.fm-v2 .fm-vinfo>div{border-left:0!important;border-top:1px solid var(--vl)!important;padding:24px 0 8px!important;min-height:0}body.fm-v2 .fm-steps{grid-template-columns:1fr 1fr!important}body.fm-v2 .fm-step{padding:26px 20px 30px!important}body.fm-v2 .fm-step:nth-child(2n+1){border-left:0!important;padding-left:0!important}body.fm-v2 .fm-vstrat>div{grid-template-columns:48px 1fr;row-gap:8px}body.fm-v2 .fm-vstrat>div::before{grid-row:1/3}body.fm-v2 .fm-vpanel .fm-stats{grid-template-columns:1fr 1fr!important}body.fm-v2 .fm-vpanel .fm-stat{padding:24px 0 6px;border-left:0}body.fm-v2 .fm-vtabs{gap:28px}}
+@media(max-width:640px){body.fm-v2 .fm-steps{grid-template-columns:1fr!important}body.fm-v2 .fm-step{border-left:0!important;padding:22px 0 26px!important}body.fm-v2 .fm-vtabs{gap:18px;padding:0 16px}body.fm-v2 .fm-vtabs button{font-size:15px;padding:16px 0}}
 .fm-vt small{display:block;color:#5f6a63;font-weight:800;font-size:13px;letter-spacing:.12em;margin-bottom:16px}
 .fm-vt-max{display:block;color:#8a918c;font-size:12.5px;margin-bottom:2px}
 .fm-vt strong{display:block;color:var(--fm-accent);font-size:30px;font-weight:800;line-height:1.2}
