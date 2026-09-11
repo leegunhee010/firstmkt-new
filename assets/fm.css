@@ -50,10 +50,10 @@
 .fm-card h3{color:var(--fm-ink);font-size:24px;font-weight:700;margin:14px 0 12px;line-height:1.35}
 .fm-card p{color:var(--fm-sub);font-size:15px;line-height:1.75}
 .fm-country .fm-more{display:inline-block;margin-top:18px;color:var(--fm-accent);font-size:14px;font-weight:600}
-.fm-masonry{display:grid;grid-template-columns:repeat(3,1fr);gap:52px 32px;padding:0 40px;max-width:1440px;margin:0 auto} /* 카드 규격 통일: 4:3 사진 + 제목 + 칩 + 2줄 설명 */
-.fm-pcard{display:block;text-decoration:none;min-width:0}
-.fm-pcard .ph{border-radius:0;aspect-ratio:4/3!important}
-.fm-pcard .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fm-masonry{columns:3;column-gap:32px;padding:0 40px;max-width:1440px;margin:0 auto} /* 메이슨리: 사진은 원본 비율 그대로 (사장님: "지멋대로 들어가는 게 멋") */
+.fm-pcard{display:block;break-inside:avoid;margin-bottom:52px;text-decoration:none}
+.fm-pcard .ph{border-radius:0;aspect-ratio:auto!important}
+.fm-pcard .ph img{position:static;height:auto;object-fit:initial}
 .fm-pcard .ph img{transition:transform .5s cubic-bezier(.2,.6,.2,1)}
 .fm-pcard:hover .ph img{transform:scale(1.035)}
 .fm-pcard h3{color:var(--fm-ink);font-size:19px;font-weight:700;margin:18px 0 10px;line-height:1.4;letter-spacing:-.01em;transition:color .2s}
@@ -562,12 +562,12 @@ body.fm-vnorth .fm-rows .fm-sec.fm-pds{padding:120px 0}
 .fm-pds .fm-pdrel{gap:40px 24px;align-items:start}
 .fm-pds .fm-pdrel .fm-pcard{margin-bottom:0}
 .fm-pds .fm-pdrel .fm-pcard .ph{aspect-ratio:4/3!important}
-.fm-pds .fm-pdrel .fm-pcard .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fm-pds .fm-pdrel .fm-pcard .ph img{position:static;height:auto;object-fit:initial}
 /* 브랜드 상세 Projects 그리드도 썸네일 4:3 통일 */
 .fmb-dark .fm-grid3{align-items:start;gap:40px 24px}
 .fmb-dark .fm-grid3 .fm-pcard{margin-bottom:0}
 .fmb-dark .fm-grid3 .fm-pcard .ph{aspect-ratio:4/3!important}
-.fmb-dark .fm-grid3 .fm-pcard .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fmb-dark .fm-grid3 .fm-pcard .ph img{position:static;height:auto;object-fit:initial}
 .fm-pds:not(.fm-dk) .fm-pcard .ph{border-color:#e7e7e7;background:#f4f5f4}
 .fm-pds:not(.fm-dk) .fm-pcard h3{color:#111}
 .fm-pds:not(.fm-dk) .fm-pcard:hover h3{color:#2f7a48}
@@ -1011,8 +1011,8 @@ body.fm-v2 .fm-vpanel .fm-note{margin-top:26px}
 .fm-vt b{display:inline-block;background:rgba(72,176,100,.14);color:var(--fm-accent);font-size:13.5px;font-weight:800;padding:7px 16px;border-radius:99px}
 @media(max-width:1024px){.fm-vtargets{grid-template-columns:repeat(2,1fr)}.fm-vinfo{grid-template-columns:1fr}.fm-vstrat{grid-template-columns:1fr}.fm-steps.n5{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.fm-vtargets{grid-template-columns:1fr}.fm-steps.n5{grid-template-columns:1fr}}
-@media(max-width:1024px){.fm-grid3,.fm-grid4{grid-template-columns:repeat(2,1fr)}.fm-masonry{grid-template-columns:repeat(2,1fr)}.fm-stats{grid-template-columns:repeat(3,1fr)}.fm-split{grid-template-columns:1fr}.fm-steps{grid-template-columns:repeat(2,1fr)}.fm-list{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:640px){.fm-grid3,.fm-grid4,.fm-list,.fm-steps{grid-template-columns:1fr}.fm-masonry{grid-template-columns:1fr}.fm-stats{grid-template-columns:repeat(2,1fr)}.fm-page-hero h1,.fm-page-hero h2{font-size:34px}.fm-header .fm-nav ul{gap:14px;flex-wrap:wrap}}
+@media(max-width:1024px){.fm-grid3,.fm-grid4{grid-template-columns:repeat(2,1fr)}.fm-masonry{columns:2}.fm-stats{grid-template-columns:repeat(3,1fr)}.fm-split{grid-template-columns:1fr}.fm-steps{grid-template-columns:repeat(2,1fr)}.fm-list{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.fm-grid3,.fm-grid4,.fm-list,.fm-steps{grid-template-columns:1fr}.fm-masonry{columns:1}.fm-stats{grid-template-columns:repeat(2,1fr)}.fm-page-hero h1,.fm-page-hero h2{font-size:34px}.fm-header .fm-nav ul{gap:14px;flex-wrap:wrap}}
 /* ── 프로젝트 상세 (fm-pd*) ── */
 /* ── 브랜드 상세 v2 = About 문법 (프리픽스 fmb-) ── */
 .fmb-wrap{max-width:1542px;margin:0 auto;padding:0 40px}
