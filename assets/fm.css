@@ -1120,9 +1120,12 @@ body.fm-v2 .fm-vpanel .fm-note{margin-top:26px}
 @media(max-width:640px){.fm-pdgal{grid-template-columns:1fr}.fm-pdnav-grid{grid-template-columns:1fr}.fm-pdnav a.next{border-left:0;border-top:1px solid #1e211f;text-align:left;align-items:flex-start}.fm-pdhero-in{padding:150px 24px 54px}}
 /* -- 블로그 (프리픽스 fmg- : fm-b*는 브랜드 상세가 사용, 충돌 금지) -- */
 .fmg-filter{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:36px;width:100vw;margin:0 calc(50% - 50vw) 64px;padding:18px 24px;background:#fff;border-top:1px solid #ececec;border-bottom:1px solid #ececec}
-.fmg-filter button{background:transparent;border:0;color:#9a9a9a;font-size:21px;font-weight:600;padding:12px 26px;border-radius:30px;cursor:pointer;transition:color .2s,background .2s}
+.fmg-filter{gap:48px;padding:0 24px}
+.fmg-filter button{position:relative;background:transparent;border:0;color:#9a9a9a;font-size:19px;font-weight:700;padding:26px 2px;border-radius:0;cursor:pointer;transition:color .2s}
 .fmg-filter button:hover{color:#111}
-.fmg-filter button.on{background:#222;color:#fff}
+.fmg-filter button.on{color:#111;font-weight:800}
+.fmg-filter button.on::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--fm-accent)}
+.fmg-filter button:focus{outline:0}.fmg-filter button:focus-visible{outline:2px solid var(--fm-accent);outline-offset:-2px}
 .fmg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
 /* 목록 래퍼 = 서브 히어로와 같은 콘텐츠 박스(1462) → 필터·카드 좌측선이 타이틀과 일치 */
 .fmg-wrap{max-width:1542px;margin:0 auto;padding:0 40px}
@@ -1173,7 +1176,7 @@ body.fm-v2 .fm-vpanel .fm-note{margin-top:26px}
 .fmg-tags{max-width:900px;margin:0 auto;padding:24px 24px 0;display:flex;flex-wrap:wrap;gap:10px}
 .fmg-tags span{color:#8a918c;font-size:13.5px;font-weight:700;border:1px solid #222724;border-radius:99px;padding:8px 16px}
 @media(max-width:1024px){.fmg-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:640px){.fmg-filter{gap:6px;padding:12px 10px}.fmg-filter button{font-size:16px;padding:9px 16px}.fmg-grid{grid-template-columns:1fr;gap:22px}.fmg-hero-in{padding:130px 20px 46px}.fmg-article{padding:48px 20px 12px}.fmg-article p,.fmg-article li{font-size:16px}}
+@media(max-width:640px){.fmg-filter{gap:20px;padding:0 16px}.fmg-filter button{font-size:15px;padding:16px 0}.fmg-grid{grid-template-columns:1fr;gap:22px}.fmg-hero-in{padding:130px 20px 46px}.fmg-article{padding:48px 20px 12px}.fmg-article p,.fmg-article li{font-size:16px}}
 /* -- 블로그 화이트 테마 (히어로만 다크 유지) -- */
 .fmg-light{background:#fff}
 .fmg-light .section{color:#5d6b62}
