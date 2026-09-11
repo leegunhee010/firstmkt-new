@@ -1028,7 +1028,7 @@ body.fm-v2 .fm-vpanel .fm-note{margin-top:26px}
 .fmb-links .fm-btn2-ghost{margin-left:0}
 /* 풀블리드 사진 밴드 */
 .fmb-feat{background:#000}
-.fmb-feat img{width:100%;height:clamp(320px,42vw,600px);display:block;object-fit:cover;object-position:center}
+.fmb-feat img{width:100%;height:clamp(320px,42vw,600px);display:block;object-fit:cover;object-position:center bottom}
 /* 헤어라인 스탯 스트립 (history 문법) */
 .fmb-stats{background:#000;border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14)}
 .fmb-stats-row{display:flex;flex-wrap:wrap}
