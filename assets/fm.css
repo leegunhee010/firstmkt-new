@@ -765,6 +765,7 @@ body.fm-vnorth .fm-dk .fm-stat span{color:#999}
 .fm-vh{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-bottom:64px}
 .fm-vh :is(h2,h3){margin:0;color:#111;font-size:clamp(40px,4vw,64px);font-weight:700;line-height:1.08;letter-spacing:-.02em}
 .fm-vh :is(h2,h3) strong{display:block;margin-top:24px;font-size:20px;font-weight:600;letter-spacing:0;line-height:1.4}
+.kzLlGW .header .title{font-weight:800}  /* 홈 PROJECTS 제목: 미러 원본 600 → 다른 섹션과 같은 800 (9/11) */
 .fm-vh p{margin:0;color:#111;font-size:20px;line-height:1.55;max-width:715px;word-break:keep-all}
 .fm-vh p .ko{display:block;margin-top:18px;color:#555;font-size:15.5px;line-height:1.75}
 .fm-dk .fm-vh :is(h2,h3),.fm-dk .fm-vh p{color:#fff}
@@ -890,7 +891,7 @@ body.fm-vnorth .fm-vtabs button.on{background:#111;color:#fff}
 .fm-cf-info dd{color:#dfe3e0;font-size:15.5px;line-height:1.7;margin:6px 0 0}
 .fm-cf-info a{color:#dfe3e0;text-decoration:none}
 .fm-cf-info a:hover{color:var(--fm-accent)}
-.fm-cf-form{max-width:760px}
+.fm-cf-form{max-width:none}  /* 폼을 히어로와 같은 우측 끝까지 (9/11 와이드 맞춤) */
 .fm-cf-row2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .fm-cf-f{margin-bottom:20px;min-width:0}
 .fm-cf-f label{display:block;color:#dfe3e0;font-size:14px;font-weight:700;margin:0 0 9px}
@@ -903,12 +904,13 @@ body.fm-vnorth .fm-vtabs button.on{background:#111;color:#fff}
 .fm-cf-form select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%2377807a' d='M6 8 0 0h12z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:40px}
 .fm-cf-form .is-err{border-color:#e0574f}
 .fm-cf-err{display:block;color:#ff8a82;font-size:13px;line-height:1.5;margin-top:7px;min-height:0}
-.fm-cf-consent{border-top:1px solid #1e211f;margin-top:12px;padding-top:24px}
-.fm-cf-check{display:flex;align-items:flex-start;gap:10px;cursor:pointer}
+.fm-cf-consent{border-top:1px solid #1e211f;margin-top:12px;padding-top:24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}  /* 동의 + 내용 보기 한 줄 (9/11) */
+.fm-cf-check{display:flex;align-items:center;gap:10px;cursor:pointer}
 .fm-cf-check input{width:18px;height:18px;flex:0 0 18px;margin-top:2px;accent-color:#48B064;padding:0;border-radius:4px}
 .fm-cf-check span{color:#dfe3e0;font-size:14.5px;line-height:1.6}
-.fm-cf-toggle{background:none;border:0;color:#8a918c;font-size:13px;font-weight:700;text-decoration:underline;cursor:pointer;padding:10px 0 0 28px}
+.fm-cf-toggle{background:none;border:0;color:#8a918c;font-size:13px;font-weight:700;text-decoration:underline;cursor:pointer;padding:0}
 .fm-cf-toggle:hover{color:var(--fm-accent)}
+.fm-cf-consent .fm-cf-terms,.fm-cf-consent .fm-cf-err{flex:0 0 100%}
 .fm-cf-terms{margin:12px 0 0 28px;padding:16px 18px;background:#0c0e0d;border:1px solid #1e211f;border-radius:10px;color:#98a09a;font-size:13.5px;line-height:1.9;font-family:inherit;white-space:pre-wrap}
 .fm-cf-submit{margin-top:28px;width:100%;background:var(--fm-accent);color:#04150a;border:0;border-radius:99px;padding:18px 30px;font-size:16px;font-weight:800;font-family:inherit;cursor:pointer;transition:background .2s,transform .2s}
 .fm-cf-submit:hover:not(:disabled){background:#3d9955;transform:translateY(-1px)}
