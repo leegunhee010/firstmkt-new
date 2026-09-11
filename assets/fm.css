@@ -379,7 +379,7 @@ section.jWdueg .fm-hero-glow{animation:fmGlowPulse 6s ease-in-out infinite alter
 .fm-obn-word.w1{top:44%;left:-2vw}
 .fm-obn-word.w2{top:64%;left:-38vw}
 .fm-obn-in{position:relative;z-index:1;max-width:1440px;margin:0 auto;padding:0 40px}
-.fm-obn-head{display:grid;grid-template-columns:minmax(300px,1fr) minmax(0,460px);gap:60px;align-items:end;justify-content:space-between;margin-bottom:70px}
+.fm-obn-head{display:grid;grid-template-columns:minmax(300px,1fr) minmax(0,600px);gap:60px;align-items:start;justify-content:space-between;margin-bottom:70px}  /* 우측 설명 폭 600px, 눈썹과 상단 정렬 */
 .fm-obn-copy-r p{margin:0 0 10px;color:#c3cbc6;font-size:16.5px;line-height:1.7;word-break:keep-all}
 .fm-obc-wrap{position:relative}
 .fm-obc{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px clamp(40px,calc(50vw - 680px),200px) 30px;margin:0 max(calc(50% - 50vw),-200px);scroll-padding-left:clamp(40px,calc(50% - 680px),200px);scrollbar-width:none}
@@ -403,6 +403,9 @@ section.jWdueg .fm-hero-glow{animation:fmGlowPulse 6s ease-in-out infinite alter
 .fm-obn-white .fm-obn-copy small{color:#6b706d}
 .fm-obn-white .fm-obn-copy h2{color:#111}
 .fm-obn-white .fm-obn-copy-r p{color:#555}
+.fm-obn-copy-r p.en{color:#fff;font-size:19px;font-weight:500;line-height:1.55;margin:0 0 18px}
+.fm-obn-white .fm-obn-copy-r p.en{color:#111}
+.fm-obn-copy-r p.ko{font-size:15.5px;line-height:1.8}
 .fm-obn-white .fm-obc-card{background:#fff;border-color:#e7e7e7;box-shadow:0 3px 16px rgba(0,0,0,.05)}
 .fm-obn-white .fm-obc-card:hover{border-color:#48B064;box-shadow:0 16px 44px rgba(0,0,0,.12)}
 .fm-obn-white .fm-obc-card h3{color:#111}
@@ -443,7 +446,7 @@ section.jWdueg .fm-hero-glow{animation:fmGlowPulse 6s ease-in-out infinite alter
 .fm-obn-page{padding:110px 0 180px}
 .fm-obn-page .fm-obn-in{display:block;max-width:1440px}
 .fm-obn-page .fm-obn-cards,.fm-obn-page .fm-obn-col{gap:32px}
-.fm-obnp-head{display:grid;grid-template-columns:1fr 520px;gap:60px;align-items:start;margin-bottom:60px}
+.fm-obnp-head{display:grid;grid-template-columns:minmax(300px,1fr) minmax(0,820px);gap:60px;align-items:start;margin-bottom:60px}  /* 우측 설명 각 문장 한 줄 (3줄) */
 .fm-obnp-head :is(h2,h3){margin:0;color:#fff;font-size:clamp(30px,2.8vw,42px);font-weight:800;line-height:1.35;letter-spacing:-.01em}
 .fm-obnp-head p{margin:0 0 14px;color:#c3cbc6;font-size:16.5px;line-height:1.75;word-break:keep-all}
 .fm-obnp-head p:last-child{margin-bottom:0}

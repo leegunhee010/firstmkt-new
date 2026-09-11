@@ -10,8 +10,8 @@
 ## 주요 페이지
 
 - [홈](https://www.firstmkt.co.kr/index.html): 한국 본사와 베트남·중국·태국·미얀마 현지 법인의 70명 이상 로컬 마케터로 구성된 아시아 그로스 마케팅 기업입니다. 이커머스·SNS 콘텐츠, 인플루언서·KOC/KOL, 퍼포먼스 광고 및 수출바우처·정부지원사업을 지원합니다.
-- [프로젝트](https://www.firstmkt.co.kr/projects.html): 5개국에서 직접 실행한 프로젝트입니다. 국가별로 필터해서 볼 수 있습니다.
-- [자체 브랜드](https://www.firstmkt.co.kr/own-projects.html): B2B 소싱 플랫폼부터 B2C 여행 플랫폼까지, 6개 브랜드를 직접 소유하고 운영합니다. 대행이 아니라 자체 사업입니다.
+- [프로젝트](https://www.firstmkt.co.kr/projects.html): 전략에 머물지 않고 현장에서 실행해온 프로젝트입니다. 아시아 각 시장에서 만들어낸 실제 결과를 확인해 보세요.
+- [자체 브랜드](https://www.firstmkt.co.kr/own-projects.html): 아이디어를 브랜드로, 브랜드를 성장하는 사업으로 만듭니다. 시장에서 직접 실행하며 가능성을 현실로 바꿉니다.
 - [아시아 네트워크](https://www.firstmkt.co.kr/network.html): 해외 거점은 모두 로컬 법인입니다. 베트남·중국·태국·미얀마 4개 로컬 법인과 서울·대구 본사, 5개국 6개 오피스에서 직접 실행합니다.
 - [수출바우처](https://www.firstmkt.co.kr/voucher.html): 퍼스트마케팅컴퍼니는 5년 연속 정부지원사업 공식 수행기관입니다. 수출바우처 · 제조혁신바우처 · 소상공인 지원사업을 수행합니다.
 - [채용](https://www.firstmkt.co.kr/recruit.html): 퍼스트마케팅컴퍼니에서 아시아를 무대로 일해보세요. AI로 일하고, 현지에서 실행할 인재를 찾습니다.
