@@ -241,7 +241,8 @@ section.jWdueg .fm-hero-glow{animation:fmGlowPulse 6s ease-in-out infinite alter
 .fmv-pt em{font-style:normal;white-space:nowrap;color:#fff;font-size:15px;font-weight:700;line-height:1.25;text-shadow:0 1px 8px rgba(0,0,0,.95),0 0 3px rgba(0,0,0,.9)}
 .fmv-pt.fmm-left{flex-direction:row-reverse}
 .fmv-pt.fmm-left em{text-align:right}
-.fmv-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin:44px 0 26px}
+.fmv-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin:44px 0 0}
+.fmv-stats+.fmv-more{margin-top:34px}
 .fmv-stats>div{border-top:1px solid #262a28;padding-top:16px}
 .fmv-stats small{color:#9aa19c;font-size:14px;font-weight:700;letter-spacing:.03em}
 .fmv-stats strong{display:block;color:var(--fm-ink);font-size:54px;font-weight:800;line-height:1.08;margin-top:10px;letter-spacing:-.02em}
